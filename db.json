@@ -1,5 +1,5 @@
 {
-  "requests": [
+  "orders": [
     {
       "code": "ORDER_EXAMPLE_2_0_1",
       "sessionID": "SessionIDValue",
@@ -11,7 +11,7 @@
         "primaryDocument": "12345678910",
         "name": "Complete Client Name",
         "phones": [{
-            "type": 1
+            "type": 1,
             "ddd": 11,
             "number": 33333333
           }
