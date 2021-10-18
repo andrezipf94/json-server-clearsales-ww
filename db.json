@@ -1,0 +1,35 @@
+{
+  "requests": [
+    {
+      "code": "ORDER_EXAMPLE_2_0_1",
+      "sessionID": "SessionIDValue",
+      "date": "2017-03-22T13:38:59.9894222",
+      "email": "email@email.com.br",
+      "totalValue": 15.00,
+      "billing": {
+        "type": 1,
+        "primaryDocument": "12345678910",
+        "name": "Complete Client Name",
+        "phones": [{
+            "type": 1
+            "ddd": 11,
+            "number": 33333333
+          }
+        ]
+      },	
+      "payments": [{
+          "type": 1,
+          "card": {
+            "bin": "123456",
+            "end": "1234",			
+            "ownerName": "Owner Card Name"
+          }			
+        }
+      ],
+      "items": [{
+          "name": "Item description"
+        }
+      ]
+    }
+  ]
+}
